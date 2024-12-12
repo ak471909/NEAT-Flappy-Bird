@@ -1,0 +1,23 @@
+Instructions to run program:
+Pre requisite: 
+Have vs- code
+Use windows platform 
+1.)	Install pygame and neat algorithm in vs-code terminal use these commands
+-	!pip install pygame
+-	!pip install neat-python
+2.)	Configuration of assets (images directories): for these lines of code (modifications made to code)
+
+BIRD_IMGS = [
+    pygame.transform.scale2x(pygame.image.load(os.path.join("C:/Users/nandu/Desktop/flappyBird_with_NEAT_algo/bird1.png"))),
+    pygame.transform.scale2x(pygame.image.load(os.path.join("C:/Users/nandu/Desktop/flappyBird_with_NEAT_algo/bird2.png"))),
+    pygame.transform.scale2x(pygame.image.load(os.path.join("C:/Users/nandu/Desktop/flappyBird_with_NEAT_algo/bird3.png")))
+]
+PIPE_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join("C:/Users/nandu/Desktop/flappyBird_with_NEAT_algo/pipe.png")))
+BASE_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join("C:/Users/nandu/Desktop/flappyBird_with_NEAT_algo/base.png")))
+BG_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join("C:/Users/nandu/Desktop/flappyBird_with_NEAT_algo/bg.png")))
+
+
+Change the image directory to your directory by copying the image as path from the folder and pasting it here, there 6 images labelled bird-1,bird-2,bird-3, pipe, base and bg.  
+
+
+3.) Execute the code
